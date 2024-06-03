@@ -41,6 +41,7 @@ const createProyecto = async (req = request,
 //listar todos
 const getProyectos = async (req = request, 
     res = response) => {
+        console.log('peticion a getProyectos...')
         try{
             //select * from proyectos
             // join
